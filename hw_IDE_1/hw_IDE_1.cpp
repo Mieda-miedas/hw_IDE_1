@@ -14,8 +14,6 @@ int main()
     } 
     // checking file opening
 
-    // why code don't go to the github
-    
     int size_n, size_m;
     
     in >> size_n;   //take size_n fron in.txt
@@ -67,5 +65,8 @@ int main()
     
     in.close();
     out.close();
-
+    delete[] arr_m;
+    delete[] arr_m_final;
+    delete[] arr_n;
+    delete[] arr_n_final;
 }
