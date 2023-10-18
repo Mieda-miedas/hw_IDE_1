@@ -7,6 +7,14 @@ int main()
 {
     std::ifstream in ("in.txt");
     std::ofstream out("out.txt");
+
+    if (in.is_open()) 
+    {
+        std::cout << "File is open" << std::endl;
+    } 
+    // checking file opening
+
+    // why code don't go to the github
     
     int size_n, size_m;
     
@@ -61,4 +69,3 @@ int main()
     out.close();
 
 }
- 
